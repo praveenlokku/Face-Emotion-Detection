@@ -38,6 +38,8 @@ A real-time facial emotion recognition system powered by Deep Learning (CNN) and
    ```bash
    git clone https://github.com/praveenlokku/Face-Emotion-Detection.git
    cd Face-Emotion-Detection
+   python -m venv venv
+   venv/scripts/activate
    ```
 
 2. **Install dependencies**:
