@@ -1,0 +1,16 @@
+flask
+numpy
+keras
+keras-preprocessing
+pandas
+opencv-python
+pymysql
+pyttsx3
+tensorflow
+google.generativeai
+SpeechRecognition
+pyngrok
+scikit-learn
+jupyter
+notebook
+opencv-python
