@@ -60,6 +60,21 @@ If you wish to retrain or modify the model, open the Jupyter Notebook:
 jupyter notebook trainmodel.ipynb
 ```
 
+## 📊 Model Performance
+
+The current model demonstrates strong feature extraction capabilities but faces generalization challenges:
+
+- **Training Accuracy**: ~72.8%
+- **Validation Accuracy**: ~63.4%
+- **Current Status**: **High Overfitting** (indicated by the 10% gap between training and validation scores).
+
+## 📚 Important Terms
+
+- **CNN (Convolutional Neural Network)**: A deep learning architecture specialized for identifying patterns in images, such as facial expressions.
+- **Overfitting**: When a model performs exceptionally well on training data but fails to generalize to new, unseen images.
+- **Data Augmentation**: A technique to improve generalization by creating transformed versions of images (e.g., rotated, flipped) during training.
+- **Dropout**: A regularization technique used in this project (40% rate) to prevent the network from becoming too dependent on specific pixels.
+
 ## 🛠️ Built With
 
 - **TensorFlow/Keras**: For building and running the Deep Learning model.
